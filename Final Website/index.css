@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: url('images/landscape.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navBtn i, .search-icon i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-nav ul li {
+    margin-right: 20px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-nav ul li a:hover,
+.top-nav ul li a.active {
+    background: #ff6347;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+blockquote {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ddd;
+}
+
+.section-one, .section-two {
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.sec-one-left h3, .section-two h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+.sec-one-left p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e5533d;
+}
+
+.insta-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.insta-imgs div {
+    margin: 10px;
+    position: relative;
+}
+
+.insta-imgs img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.icon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.insta-imgs div:hover .icon-overlay {
+    opacity: 1;
+}
+
+.icon-overlay i {
+    color: #ff6347;
+    font-size: 2rem;
+}

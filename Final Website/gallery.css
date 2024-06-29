@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/header-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px 0;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navBtn, .search-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #ff6347;
+}
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-content {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #ff6347;
+}
+
+.section-three {
+    background: #f7f7f7;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.single-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.single-img img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.single-img:hover img {
+    transform: scale(1.1);
+}
+
+.single-img-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.single-img:hover .single-img-content {
+    opacity: 1;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subs input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subs button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6347;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.subs button:hover {
+    background: #e5533d;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.animate-fadein {
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,175 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Header Styles */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navBtn {
+    display: none;
+}
+
+.top-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.top-nav ul li {
+    margin-left: 2rem;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.top-nav ul li a.active,
+.top-nav ul li a:hover {
+    color: #f4a261;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 2rem 0;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #f4a261;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+blockquote span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #777;
+}
+
+p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+.footer-container h2,
+.footer-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-container p {
+    font-size: 1rem;
+}
+
+.subs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subs input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subs button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #f4a261;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subs button:hover {
+    background: #e76f51;
+}

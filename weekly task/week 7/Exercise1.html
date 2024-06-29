@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form</title>
+    <link rel="stylesheet" href="Exercise1.css">
+</head>
+<body>
+    <h1>Search our web site!</h1>
+    <hr>
+    <form action="#" method="post">
+        <p>Where do you want to search?</p>
+        <label>
+            <input type="radio" name="search_section" value="whole_site" checked> Whole site
+        </label><br>
+        <label>
+            <input type="radio" name="search_section" value="business_partners"> Business Partners Section
+        </label><br>
+        <label>
+            <input type="radio" name="search_section" value="corporate_communications"> Corporate Communications Section
+        </label><br>
+        <label>
+            <input type="radio" name="search_section" value="lotus_education"> Lotus Education Section
+        </label><br><br>
+        <label for="search_query">Enter a word or two that we can search on:</label><br>
+        <input type="text" id="search_query" name="search_query" size="40"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>

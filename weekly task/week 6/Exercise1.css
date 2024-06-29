@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image1 {
+    border: 5px solid black;
+}
+
+.image2 {
+    width: 100px;
+    height: 100px;
+}
+
+.image3 {
+    float: left; /* or right */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.image4 {
+    margin: 50px;
+}
+
+
